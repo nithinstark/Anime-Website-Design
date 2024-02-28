@@ -19,6 +19,29 @@ body{
     user-select: none;
     margin-right: auto;
 }
+@media (max-width: 768px) {
+    body{
+        padding-bottom: 20px;
+    }
+    .container {
+      width: 90%;
+      margin-top: 10%;
+    }
+    .center-logo{
+        left: 25%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .container{
+        width: 400px;
+        margin-top: 5%;
+    }
+    .center-logo{
+        left: 33%;
+    }
+  }
+
 
 img {
     width: 100px;
