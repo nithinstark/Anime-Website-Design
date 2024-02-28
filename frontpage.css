@@ -20,9 +20,6 @@ body{
     margin-right: auto;
 }
 @media (max-width: 768px) {
-    body{
-        padding-bottom: 20px;
-    }
     .container {
       width: 90%;
       margin-top: 10%;
